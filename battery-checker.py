@@ -44,7 +44,7 @@ def calculate_battery_health(batteries):
 if __name__ == "__main__":
     os.system("powercfg /batteryreport")
     # Đường dẫn file báo cáo pin
-    current_directory = os.path.join(os.environ['USERPROFILE'])
+    current_directory = os.path.expanduser("~")
     file_path = os.path.join(current_directory, "battery-report.html")
     
     # Trích xuất thông tin pin
