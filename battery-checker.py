@@ -63,3 +63,4 @@ if __name__ == "__main__":
             print("-" * 40)
     else:
         print("Không thể trích xuất thông tin pin.")
+    input()
