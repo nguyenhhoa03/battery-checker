@@ -45,7 +45,7 @@ def create_and_run_vbs(battery_health, temp_vbs_path):
     # Xây dựng nội dung thông báo cho MsgBox, dùng vbCrLf để xuống dòng
     msg_lines = []
     for idx, design, full, health in battery_health:
-        line = f"Pin {idx}: DESIGN = {design} mWh, FULL = {full} mWh, Tình trạng = {health:.2f}%"
+        line = f"Pin {idx}: DESIGN = {design} mWh, FULL = {full} mWh, Heath = {health:.2f}%"
         msg_lines.append(line)
     # Nối các dòng với ký tự xuống dòng của VBScript
     # Lưu ý: Trong VBScript, dùng vbCrLf để xuống dòng
