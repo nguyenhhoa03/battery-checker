@@ -82,7 +82,7 @@ if __name__ == "__main__":
             print(f"Pin {idx}:")
             print(f"  DESIGN CAPACITY      = {design} mWh")
             print(f"  FULL CHARGE CAPACITY = {full} mWh")
-            print(f"  Tình trạng pin       = {health:.2f}%")
+            print(f"  Heath                = {health:.2f}%")
             print("-" * 40)
         
         # Tạo file VBS tạm thời để hiển thị thông tin pin qua MsgBox
