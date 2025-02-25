@@ -17,9 +17,10 @@ Thực thi dòng lệnh dưới đây bằng terminal (cần cài đặt cURL)
 ```bash
 curl -s https://raw.githubusercontent.com/nguyenhhoa03/battery-checker/main/battery-checker.py | python3
 ```
+Kết quả sẽ hiển thị thông tin tình trạng pin qua console và notify-send.
 
 ## Yêu cầu
-- **Hệ điều hành:** Windows  
+- **Hệ điều hành:** Windows, Linux 
 - **Python:** Phiên bản 3.x
 
 ## Giấy phép
