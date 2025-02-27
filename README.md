@@ -1,7 +1,7 @@
 # Battery Checker
 
 ## Giới thiệu
-Battery Checker là script Python giúp kiểm tra tình trạng pin trên Windows bằng cách sử dụng báo cáo pin được tạo ra từ lệnh `powercfg /batteryreport`.
+Battery Checker là script Python giúp kiểm tra tình trạng pin trên Windows bằng cách sử dụng báo cáo pin được tạo ra từ lệnh `powercfg` và upower.
 
 ## Cách sử dụng
 # Cho Windows
